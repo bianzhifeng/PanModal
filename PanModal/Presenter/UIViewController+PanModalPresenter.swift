@@ -47,7 +47,7 @@ extension UIViewController: PanModalPresenter {
         /**
          Here, we deliberately do not check for size classes. More info in `PanModalPresentationDelegate`
          */
-        guard presentedViewController != viewControllerToPresent, presentingViewController == nil else {
+        guard presentedViewController != viewControllerToPresent else {
             return
         }
 
